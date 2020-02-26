@@ -1,0 +1,47 @@
+{
+    "title": "larryCMS",
+    "name": "larryCMS",
+    "version": "1.0",
+    "scripts": {
+        "start": "node_modules/.bin/gulp watch"
+    },
+    "description": "An open source Bootstrap 4 CMS theme.",
+    "keywords": [
+        "css",
+        "sass",
+        "html",
+        "responsive",
+        "theme",
+        "template",
+        "admin",
+        "cms"
+    ],
+    "homepage": "#",
+    "author": "SOUL",
+    "contributors": [
+        "Stefan Oljacic"
+    ],
+    "repository": {
+        "type": "git",
+        "url": "#"
+    },
+    "dependencies": {
+        "@fortawesome/fontawesome-free": "5.10.2",
+        "bootstrap": "4.3.1",
+        "datatables.net-bs4": "1.10.19",
+        "jquery": "3.4.1",
+        "jquery.easing": "^1.4.1"
+    },
+    "devDependencies": {
+        "del": "5.1.0",
+        "gulp": "4.0.2",
+        "gulp-autoprefixer": "7.0.0",
+        "gulp-clean-css": "4.2.0",
+        "gulp-header": "2.0.9",
+        "gulp-plumber": "^1.2.1",
+        "gulp-rename": "1.4.0",
+        "gulp-sass": "4.0.2",
+        "gulp-uglify": "3.0.2",
+        "merge-stream": "2.0.0"
+    }
+}
