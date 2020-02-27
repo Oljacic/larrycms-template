@@ -17,19 +17,19 @@
     <link href="css/app.min.css" rel="stylesheet">
 </head>
 <body id="page-top">
-    <!-- Page Wrapper -->
-    <div id="wrapper">
-        <?php include 'inc/sidebar.php' ?>
-        <!-- Content -->
-        <?php include 'inc/content.php' ?>
-        <!-- End Content -->
-    </div>
-    <!-- End of Page Wrapper -->
+<!-- Page Wrapper -->
+<div id="wrapper">
+    <?php include 'inc/sidebar.php' ?>
+    <!-- Content -->
+    <?php include 'inc/create-page.php' ?>
+    <!-- End Content -->
+</div>
+<!-- End of Page Wrapper -->
 
-    <!-- Scroll to Top Button-->
-    <?php include 'inc/components/elements/scroll-to-top.php' ?>
+<!-- Scroll to Top Button-->
+<?php include 'inc/components/elements/scroll-to-top.php' ?>
 
-    <!-- Scripts -->
-    <?php include 'inc/components/scripts.php' ?>
+<!-- Scripts -->
+<?php include 'inc/components/scripts.php' ?>
 </body>
 </html>
